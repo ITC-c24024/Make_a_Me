@@ -1,10 +1,10 @@
 # Make a Me
-プレイ動画：
+プレイ動画：https://drive.google.com/drive/folders/18FB3ESFhk0M8HYl5oyPXwcpDE8lD3RUf?usp=drive_link
 
 ## ゲーム画面
-![プレイ画面]()
+![プレイ画面](./ScreenShot/Play.png)
 ![タイトル画面]()
-![リザルト画面]()
+![リザルト画面](./ScreenShot/Result.png)
 
 ## ファイル構成
 * [Unityデータ](./ProjectData/)
