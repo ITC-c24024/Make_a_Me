@@ -34,6 +34,27 @@
 * [バッテリーの取得制御](./ProjectData/Assets/Maeda/Scripts/TakeRange.cs)
   * hogehoge
 
+* [バッテリーのキャッチ制御](./ProjectData/Assets/Maeda/Scripts/CatchRange.cs)
+  *
+
+* [ゲーム進行管理](./ProjectData/Assets/Maeda/Scripts/GameController.cs)
+  * コルーチンを使い、ゲームの進行を一括で管理しました。
+
+* [スコア管理](./ProjectData/Assets/Maeda/Scripts/ScoreManager.cs)
+  * 構造体を使ってプレイヤーのスコア・順位を管理し、順位に応じて配列の並べ替えを行いました。
+
+* UIアニメーション
+  * コルーチンを使い、UIのアニメーション実装しました。
+	* [シャッター](./ProjectData/Assets/Maeda/Scripts/ShutterScript.cs)
+	* [時計](./ProjectData/Assets/Maeda/Scripts/TimerScript.cs)
+	* [カウントダウン](./ProjectData/Assets/Maeda/Scripts/CountDownScript.cs)
+
+* [音源管理]()
+  * 音源を一括で管理し、メソッドとして再生・停止を任意のタイミングで呼べるようにしました。
+　* AudioMixerを使い、BGM・SEに分けてスレイダーで音量調整できるようにしました。
+
 ## 東京ゲームショウ2025出展
+
+## IT未来フェスタ in ResorTech EXPO2025出展
 
 ## 制作中の問題とその解決
