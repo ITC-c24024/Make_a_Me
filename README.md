@@ -35,7 +35,7 @@
   * hogehoge
 
 * [バッテリーのキャッチ制御](./ProjectData/Assets/Maeda/Scripts/CatchRange.cs)
-  *
+  * hogehoge
 
 * [ゲーム進行管理](./ProjectData/Assets/Maeda/Scripts/GameController.cs)
   * コルーチンを使い、ゲームの進行を一括で管理しました。
