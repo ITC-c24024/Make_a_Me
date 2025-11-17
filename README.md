@@ -1,10 +1,10 @@
 # Make a Me
-プレイ動画：
+プレイ動画：https://drive.google.com/drive/folders/18FB3ESFhk0M8HYl5oyPXwcpDE8lD3RUf?usp=drive_link
 
 ## ゲーム画面
-![プレイ画面]()
-![タイトル画面]()
-![リザルト画面]()
+![プレイ画面](./ScreenShot/Play.png)
+![タイトル画面](./ScreenShot/Title.png)
+![リザルト画面](./ScreenShot/Result.png)
 
 ## ファイル構成
 * [Unityデータ](./ProjectData/)
@@ -15,16 +15,16 @@
 ## ジャンル
 4人対戦パーティーゲーム
 
-## プラットフォーム
+### プラットフォーム
 WindowsPC (NintendoSwitchProコントローラーのみ対応)
 
-## Unityバージョン
+### Unityバージョン
 Unity 2022.3.24f1
 
-## 制作期間
+### 制作期間
 2025年9月 約1カ月
 
-## 制作人数
+### 制作人数
 5人(プログラマー3人、デザイナー2人)
 
 ## ゲームルール
