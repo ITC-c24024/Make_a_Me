@@ -28,7 +28,12 @@
 ## こだわり
 
 ## 担当プログラム
+* [プレイヤーの制御](./ProjectData/Assets/Maeda/Scripts/PlayerController.cs)
+  * RotateTowardsメソッドを使い、プレイヤーがなめらかに回転するようにしました。
 
-## 東京ゲームショウ出展
+* [バッテリーの取得制御](./ProjectData/Assets/Maeda/Scripts/TakeRange.cs)
+  * hogehoge
+
+## 東京ゲームショウ2025出展
 
 ## 制作中の問題とその解決
