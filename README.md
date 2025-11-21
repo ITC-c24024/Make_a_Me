@@ -29,16 +29,17 @@
 
 ## 担当プログラム
 * [プレイヤーの制御](./ProjectData/Assets/Maeda/Scripts/PlayerController.cs)
-  * RotateTowardsメソッドを使い、プレイヤーがなめらかに回転するようにしました。
+  * RotateTowardsメソッドを使い、プレイヤーの回転をなめらかにしました。
 
 * [バッテリーの取得制御](./ProjectData/Assets/Maeda/Scripts/TakeRange.cs)
-  * hogehoge
+  * プレイヤー4人分の当たり判定が複雑に絡むので、Nullエラー処理、所持判定を二重で行いました。
 
 * [バッテリーのキャッチ制御](./ProjectData/Assets/Maeda/Scripts/CatchRange.cs)
-  * hogehoge
+  * テストプレイ時にキャッチの難易度が高かったため、取得範囲より大きいコライダーを別で設けました。
+　* 取得制御と被らないように、バッテリーが投げられた状態かを判定しました。
 
 * [ゲーム進行管理](./ProjectData/Assets/Maeda/Scripts/GameController.cs)
-  * コルーチンを使い、ゲームの進行を一括で管理しました。
+  * コルーチンやbool使い、ゲームの進行を一括で管理しました。
 
 * [スコア管理](./ProjectData/Assets/Maeda/Scripts/ScoreManager.cs)
   * 構造体を使ってプレイヤーのスコア・順位を管理し、順位に応じて配列の並べ替えを行いました。
@@ -46,12 +47,13 @@
 * UIアニメーション
   * コルーチンを使い、UIのアニメーション実装しました。
 	* [シャッター](./ProjectData/Assets/Maeda/Scripts/ShutterScript.cs)
+	  * 開閉時間をインスペクターから調整できるようにしました。
 	* [時計](./ProjectData/Assets/Maeda/Scripts/TimerScript.cs)
-	* [カウントダウン](./ProjectData/Assets/Maeda/Scripts/CountDownScript.cs)
+	  * 外側の歯車と内側の歯車の回転速度を調整し、噛み合いを表現しました。
 
-* [音源管理]()
+* [音源管理](./ProjectData/Assets/Maeda/Scripts/AudioManager.cs)
   * 音源を一括で管理し、メソッドとして再生・停止を任意のタイミングで呼べるようにしました。
-　* AudioMixerを使い、BGM・SEに分けてスレイダーで音量調整できるようにしました。
+　* AudioMixerを使い、BGM・SEに分けてスライダーで音量調整できるようにしました。
 
 ## 東京ゲームショウ2025出展
 
